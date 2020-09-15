@@ -81,10 +81,20 @@ body.fotos #navegacao a#fotos {
 	background: #f5f5f5;
 }
 
+#lateral {
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+
 #primario { /* Layout padrão com 3 colunas */
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario { /* Layout com duas colunas */
+	width: 555px;
 }
 
 #uma-coluna #primario { /* Layout com uma coluna */
@@ -92,29 +102,13 @@ body.fotos #navegacao a#fotos {
 	margin: 0 0 20px 0;
 }
 
-#duas-colunas #primario { /* Layout com duas colunas */
-	width: 555px;
-}
-
 #secundario {
 	width: 270px;
 	float: left;
-}
-
-#lateral {
-	width: 180px;
-	float: left;
-	margin: 0 0 20px -750px;
-}
-
-#area-rodape {
-	background: #294c71;
-	padding: 20px;
-	clear: both;
+	margin: 0 0 20px 15px;
 }
 
 h2 {
-	text-align: center;
 	padding: 5px;
 	font-size: 1.1em;
 	background: #294c71;
@@ -134,6 +128,13 @@ h2 {
 }
 
 /* Layout Rodapé */
+
+#area-rodape {
+	background: #294c71;
+	padding: 20px;
+	clear: both;
+}
+
 #rodape {
 	width: 750px;
 	margin: 0 auto;
