@@ -169,6 +169,42 @@ input.submit {
 	margin-top: 5px;
 }
 
+/* Formatação imagem */
+
+img.imagem-principal {
+	margin-top: 10px;
+	width: 98%;
+	border: 2px solid #dfdfdf;
+}
+
+/* Formatação cabeçalho  */
+
+h3 {
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 0.8em;
+	padding: 3px;
+	margin-top: 5px;
+}
+
+p {
+	margin-top: 7px;
+	padding-left: 7px;
+}
+.destaque a, .entrevista a {
+	padding-left: 7px;
+}
+
+.destaque h3 {
+	color: #fff;
+	background: #b10333;
+}
+
+.entrevista h3 {
+	color: #fff;
+	background: #b10333;
+}
+
 /* Layout Rodapé */
 
 #area-rodape {
